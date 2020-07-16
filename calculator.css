@@ -1,0 +1,60 @@
+html, body{
+    height: 100vh;
+    background:linear-gradient(to right, #c5c7d4, #473e4f);
+    font-family: 'Orbitron';  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calc-border{
+    background-color: white;
+    height:390px;
+    width:250px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    position: relative;
+}
+#screen1{
+    margin-top: 10px;
+    text-align: center;
+    color: #36454F;
+    width: 250px;
+    height: 25px;
+}
+#screen{   
+    text-align: center;
+    color:  #36454F;
+    width: 250px;
+    height: 25px;  
+}
+.bottom{
+    bottom: 0;
+    position: absolute;
+    width: 250px;
+    height: 25px;
+    background-color: #e4324c;
+}
+
+.calc {
+    width:300px;
+    align-items: center;
+    position: absolute;
+    background-color:#763f5f;
+    opacity: 0.97; 
+}
+.btn, .btnOp, .btnEq, .clrBtn, .del{
+  margin: 10px;
+  width:50px;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  background:none;
+  color: white;
+  font-size:17px; 
+  font-family: 'Orbitron';
+  cursor: pointer;
+}
+
+
