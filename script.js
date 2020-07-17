@@ -54,7 +54,7 @@ function execute(){
             return;     
     }
     reset = true;
-    displayValue = compute;
+    displayValue = Math.round(compute);
     operator = operator;
     saveValue = '';
 };
