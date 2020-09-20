@@ -4,5 +4,6 @@ https://www.theodinproject.com/courses/web-development-101/lessons/calculator
 
 HTML5,CSS3,JavaScript used for this one.Practice of functions.
 
-Live:
+
+<h3><b>Live:</b></h3>
 https://stergioshariop.github.io/JavaScript-Online-Calculator/
